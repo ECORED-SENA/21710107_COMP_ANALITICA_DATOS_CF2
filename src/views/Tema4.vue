@@ -4,14 +4,14 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-primario 
       .titulo-principal__numero
-        span 3
-      h1 Confidencialidad de la información 
+        span 4
+      h1 Técnicas de análisis de datos 
 
 </template>
 
 <script>
 export default {
-  name: 'Tema3',
+  name: 'Tema4',
   data: () => ({
     // variables de vue
   }),
