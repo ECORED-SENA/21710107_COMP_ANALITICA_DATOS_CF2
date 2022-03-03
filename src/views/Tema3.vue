@@ -19,8 +19,10 @@
           .col-3
             figure.mb-4
               img.px-4(src='@/assets/curso/tema2/img02.svg')
-        p.mb-4.pt-5 Por información confidencial se entiende la comunicación personal o la información relacionada con la actividad de una organización que es desconocida para el público y solo se comparte entre unas pocas personas. Esta información llega a manos de las diferentes entidades a través de su trabajo.
-        p.mb-4 Algunos ejemplos comunes de información confidencial son, entre otros, los presentados en la siguiente infografía: 
+        .contenedor--texto-right-pink3
+          p.mb-4.pt-5 Por información confidencial se entiende la comunicación personal o la información relacionada con la actividad de una organización que es desconocida para el público y solo se comparte entre unas pocas personas. Esta información llega a manos de las diferentes entidades a través de su trabajo.
+        .contenedor--texto-left
+          p.mb-4 Algunos ejemplos comunes de información confidencial son, entre otros, los presentados en la siguiente infografía: 
         .row.justify-content-center
           .col-8.col-md-3.col-lg-2
             figure.mb-4.mb-lg-0
@@ -56,16 +58,16 @@
 
         .tarjeta.color-acento-botones.p-3(x="72%" y="58%" numero="7")
           p Objetivos y previsiones no publicados marcados como confidenciales.
-
-    .row.mb-5
-      .col-12
-        .cajon.colorf.p-4.flex-center
-          p Se puede usar dos o más columnas para diagramar el texto, estos elementos pueden presentar contenedores que permitan diferenciar ideas o conceptos. 
-        figure.pb-2.justify-content.center-center-column
-         img.img90.flex-center(src='@/assets/curso/tema3/img03.svg')
+    
+    .bloque-texto-f.color-acento-botones-claro.pt-4.px-5.mb-5
+      .bloque-texto-f__comillas
+      p Todas las empresas disponen de datos personales de su personal, usuarios, miembros, etc., que solo se utilizarán para los fines para los que fueron recogidos y no se divulgarán a nadie fuera de la organización sin permiso previo de acuerdo con la Ley de Protección de Datos en cada país.
+      .bloque-texto-f__autor.mb-0
+        .bloque-texto-f__avatar__img
+          img(src='@/assets/curso/tema3/img03.svg', alt='Texto que describa la imagen')
       
-      .col.flex-center.pt-4
-        p Es preciso aclarar las siguientes definiciones establecidas en la Ley 1581 de 2012:
+    .col.flex-center.pt-4
+      p.mb-5 Es preciso aclarar las siguientes definiciones establecidas en la Ley 1581 de 2012:
 
     .row.mb-5
       .col-md-6.col-lg.mb-5.mb-lg-0
@@ -92,7 +94,7 @@
               h2.text-center Encargado del Tratamiento: 
               p.text-center “Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, realice el Tratamiento de datos personales por cuenta del Responsable del Tratamiento.” 
 
-    .tarjeta.color-secundario.p-3.mb-5
+    .tarjeta.color-secundario.p-4.mb-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/tema3/img05.svg")
@@ -123,7 +125,7 @@
         h4 Legislación en Protección de Datos Personales en Colombia 
         p.mb-4 El siguiente video encontramos información sobre la legislación en protección de datos personales en Colombia: 
     
-    .row
+    .row.justify-content-center.align-items-center
       .col-3.col-md-3.col-lg-1.mb-4.mb-lg-0
         
       .col-12.col-md-9.col-Lg-11  
@@ -174,14 +176,15 @@
           .col-9
           .col-3.mb-4
             img.px-4(src='@/assets/curso/tema2/img04.svg')
+
+      .bloque-texto-f.color-acento-botones-claro.pt-4.px-5.mb-5
+        .bloque-texto-f__comillas
+        p La Ley 1266 de 2008, también conocida como Ley de Habeas Data, se aplica a todos los datos personales financieros, crediticios, comerciales y de servicios registrados en un banco de datos. En este sentido, la aplicación de la Ley 1266 de 2008 está encaminada a regular el uso de esa información y por tanto otro tipo de datos (por ejemplo, aquellos mantenidos en un ámbito exclusivamente personal o doméstico o los que se incluyen en una historia clínica) se encuentran excluidos de la aplicación de esta norma. 
+        .bloque-texto-f__autor.mb-0
+          .bloque-texto-f__avatar__img
+            img(src='@/assets/curso/tema3/img14.svg', alt='Texto que describa la imagen')      
       
-      .row.mb-5
-      .col-12
-        .cajon.colorf.p-4.flex-center
-          p La Ley 1266 de 2008, también conocida como Ley de Habeas Data, se aplica a todos los datos personales financieros, crediticios, comerciales y de servicios registrados en un banco de datos. En este sentido, la aplicación de la Ley 1266 de 2008 está encaminada a regular el uso de esa información y por tanto otro tipo de datos (por ejemplo, aquellos mantenidos en un ámbito exclusivamente personal o doméstico o los que se incluyen en una historia clínica) se encuentran excluidos de la aplicación de esta norma. 
-        figure.pb-2.justify-content.center-center-column.mb-4
-         img.img90.flex-center.mb-4(src='@/assets/curso/tema3/img13.svg')
-          
+    .row.mb-4   
       .col-1.col-md-1.col-lg-1.mb-lg-0
         figure.mb-4.pt-2
           img.img10(src='@/assets/curso/tema3/img12.svg')
@@ -199,7 +202,7 @@
       .col-12.col-md-9.col-Lg-11
           h4.pt-3 Habeas data en Colombia:
           p.small Los invitamos a revisar el siguiente video donde se expone la definición de habeas data en Colombia:
-    .row
+    .row.justify-content-center.align-items-center
       .col-3.col-md-3.col-lg-1.mb-lg-0
         
       .col-9.col-md-9.col-Lg-11  

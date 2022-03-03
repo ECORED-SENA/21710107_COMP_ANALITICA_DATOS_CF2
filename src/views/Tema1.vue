@@ -85,10 +85,37 @@
           .col-3
             img(src='@/assets/curso/tema1/img09.svg')
 
-    p.mb-4 De esta manera la estadística inferencial permite concluir el análisis que se realiza a través de los datos suministrados por la de la estadística descriptiva, de allí su relación con lo descrito anteriormente.
+    p.mb-5 De esta manera la estadística inferencial permite concluir el análisis que se realiza a través de los datos suministrados por la de la estadística descriptiva, de allí su relación con lo descrito anteriormente.
 
-    figure.mb-4
-      img(src='@/assets/curso/tema1/img10.png')
+    .row.justify-content-center.mb-5
+      .col-lg-4
+        figure
+          img.img343312(src="@/assets/curso/tema1/img17.png")         
+      .col-lg-8
+        figure.mb-4
+          img.img833154(src="@/assets/curso/tema1/img18.svg") 
+        p.mb-4.px-5 La estadística descriptiva se utiliza para presentar descripciones cuantitativas de forma manejable. En un estudio estadístico, podemos tener diferentes medidas o puede que midamos a un gran número de personas en alguna medida, también nos ayudan a simplificar grandes cantidades de datos de forma razonable. Cada estadística descriptiva reduce muchos datos a un resumen más sencillo.
+          .col-lg-11
+            figure.mb-4.flex-end
+              img.img100(src="@/assets/curso/tema2/img02.svg")
+          .col-lg-1
+    .row.justify-content-center.mb-5
+      .col-lg-5 
+        figure
+          img(src="@/assets/curso/tema1/img19.svg") 
+      .col-lg-7
+        .contenedor--texto-right-pink4
+          .contenedor--texto-left-pink4
+            p.mb-4 Por ejemplo, consideremos un simple número utilizado para resumir el rendimiento de un bateador en el béisbol, la media de bateo. Este número es simplemente el número de hits dividido por el número de veces que se batea (con tres dígitos significativos). Un bateador que batea 0,333 acierta una vez cada tres veces al bate. Uno que batea .250 está bateando una vez en cuatro. El número único describe un gran número de eventos discretos. O consideremos el azote de muchos estudiantes, el promedio de calificaciones. Este único número describe el rendimiento general de un estudiante en una gama potencialmente amplia de experiencias de curso.
+        .row.colorgris.p-4
+          .col-lg-5
+          .col-lg-7
+          .col-1.col-md-1.col-lg-1.mb-4.mb-lg-0
+            figure.pt-5 
+              img.img10.pt-4(src="@/assets/curso/tema3/img12.svg")
+          .col-11.col-md-11.col-lg-11
+            p.mb-4 Cada vez que se intenta describir un gran conjunto de observaciones con un único indicador, se corre el riesgo de distorsionar los datos originales o de perder detalles importantes. La media de bateo no indica si el bateador está bateando jonrones o sencillos. No dice si ha tenido una mala racha o una buena racha. El promedio de calificaciones no dice si el estudiante estaba en cursos difíciles o fáciles, o si eran cursos en su campo principal o en otras disciplinas. Incluso teniendo en cuenta estas limitaciones, la estadística descriptiva ofrece un potente resumen que puede permitir comparaciones entre personas u otras unidades.
+    
 
     Separador
 

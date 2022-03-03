@@ -86,12 +86,12 @@
           .col-3.mb-4
             img.px-4(src='@/assets/curso/tema4/img05.svg')
 
-    .row.mb-4
-      .col-12
-        .cajon.colorf.p-4
-          p En el análisis de Big Data, se nos presentan los datos. No podemos diseñar un experimento que cumpla con nuestro modelo estadístico favorito. En las aplicaciones de analítica a gran escala, se necesita una gran cantidad de trabajo, normalmente el 80% del esfuerzo es solo para limpiar los datos, de modo que puedan ser utilizados por un modelo de aprendizaje automático.
-        figure.pb-2.justify-content.center-center-column
-         img.img90.flex-center(src='@/assets/curso/tema4/img06.svg')
+    .bloque-texto-f.color-acento-botones-claro.pt-4.px-5.mb-5
+      .bloque-texto-f__comillas
+      p.text-center En el análisis de Big Data, se nos presentan los datos. No podemos diseñar un experimento que cumpla con nuestro modelo estadístico favorito. En las aplicaciones de analítica a gran escala, se necesita una gran cantidad de trabajo, normalmente el 80% del esfuerzo es solo para limpiar los datos, de modo que puedan ser utilizados por un modelo de aprendizaje automático.
+      .bloque-texto-f__autor.mb-0
+        .bloque-texto-f__avatar__img
+          img(src='@/assets/curso/tema4/img06.svg', alt='Texto que describa la imagen')
 
     <br/>
     .row

@@ -35,9 +35,9 @@
             img.px-4(src='@/assets/curso/tema2/img03.svg')
       
     <br/>
-      p.mb-4 El proceso de validación de datos consta de cuatro pasos importantes:
+    h4.mb-4 El proceso de validación de datos consta de cuatro pasos importantes: 
 
-      .row.justify-content-center-align-items-center
+      .row.justify-content-center-align-items-center.pt-5
         .col-lg-6
           .tarjeta-avatar-b.mb-5
             .tarjeta-avatar-b__img
@@ -83,16 +83,16 @@
           img(src='@/assets/curso/tema2/img09.svg' alt='AvatarTop')
           .tarjeta.colorf
             .p-4
-              h2.text-center Herramientas empresariales
-              p Existen herramientas empresariales para realizar la validación de datos que  pueden validar y reparar datos. Las herramientas empresariales tienen la ventaja de ser más estables y seguras, pero pueden requerir infraestructura y son más costosas que las opciones de código abierto.
+              h3.text-center Herramientas empresariales
+              p.text-center Existen herramientas empresariales para realizar la validación de datos que  pueden validar y reparar datos. Las herramientas empresariales tienen la ventaja de ser más estables y seguras, pero pueden requerir infraestructura y son más costosas que las opciones de código abierto.
 
       .col-md-6.col-lg-4.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema2/img10.svg' alt='AvatarTop')
+          img.img120(src='@/assets/curso/tema2/img10.svg' alt='AvatarTop')
           .tarjeta.colorf
             .p-4
-              h2.text-center Herramientas de código abierto
-              p Las opciones de código abierto son rentables y, si están basadas en la nube, también pueden ahorrarle dinero en costos de infraestructura. Pero siguen requiriendo un nivel de conocimiento y codificación manual para poder utilizarlas de forma eficaz.
+              h3.pt-2.text-center Herramientas de código abierto
+              p.text-center Las opciones de código abierto son rentables y, si están basadas en la nube, también pueden ahorrarle dinero en costos de infraestructura. Pero siguen requiriendo un nivel de conocimiento y codificación manual para poder utilizarlas de forma eficaz.
            
     .row.justify-content-center.mb-5
       .col-lg-5
@@ -116,8 +116,9 @@
       h4.titulo-cuarto Tipos de instrumentos de validación 
       .row.justify-content-center.align-items-center
         .col-md-6
-          .cajon-b.color-primario.p-0
+          .contenedor--texto-right-pink4
             p.pt-4.mb-4 La validación requiere pruebas documentadas de que un proceso se ajusta sistemáticamente a los requisitos. Para ello, primero hay que obtener un proceso que se ajuste sistemáticamente a los requisitos y, a continuación, realizar estudios que lo demuestren. Las herramientas estadísticas pueden ayudar en ambas tareas.
+          .contenedor--texto-left-blue4
             p.mb-4 Hay muchos tipos de validación de datos. La mayoría de los procedimientos de validación de datos realizan una o varias de estas comprobaciones para garantizar que los datos son correctos antes de almacenarlos en la base de datos. 
         .col-md-6
           figure.mb-4
@@ -141,9 +142,9 @@
               div
                 h3.p-4.text-center 1. Comprobación del tipo de datos
               
-            .tarjeta-flip__contenido.p-2.p-xl-5
-              h3.pt-0.m-0.text-center 1. Comprobación del tipo de datos
-              p.m-0 Una comprobación del tipo de datos confirma que los datos introducidos son del tipo correcto. Por ejemplo, un campo puede aceptar sólo datos numéricos. Si este es el caso, cualquier dato que contenga otros caracteres, como letras o símbolos especiales, será rechazado por el sistema.   
+            .tarjeta-flip__contenido.p-2.p-xl-4
+              h4.pt-4.text-center 1. Comprobación del tipo de datos
+              p.m-0.small Una comprobación del tipo de datos confirma que los datos introducidos son del tipo correcto. Por ejemplo, un campo puede aceptar sólo datos numéricos. Si este es el caso, cualquier dato que contenga otros caracteres, como letras o símbolos especiales, será rechazado por el sistema.   
 
       .col-sm-6.col-xl-3.mb-4.mb-xl-0.cont1
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
@@ -154,9 +155,9 @@
               div
                 h3.p-4.text-center 2. Comprobación de código 
               
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              h3 2. Comprobación de código
-              p Una comprobación de código garantiza que un campo se selecciona de una lista válida de valores o sigue ciertas reglas de formato. Por ejemplo, es más fácil comprobar que un código postal es válido cotejándolo con una lista de códigos válidos. El mismo concepto puede aplicarse a otros elementos como los códigos de país y los códigos industriales
+            .tarjeta-flip__contenido.p-4.p-xl-4
+              h4.pt-4.text-center 2. Comprobación de código
+              p.small Una comprobación de código garantiza que un campo se selecciona de una lista válida de valores o sigue ciertas reglas de formato. Por ejemplo, es más fácil comprobar que un código postal es válido cotejándolo con una lista de códigos válidos. El mismo concepto puede aplicarse a otros elementos como los códigos de país y los códigos industriales.
       
       .col-sm-6.col-xl-3.mb-4.mb-xl-0.cont1
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
@@ -167,9 +168,9 @@
               div
                 h3.p-4.text-center 3. Comprobación de rangos
               
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              h3.pt-2.text-center 3. Comprobación de rangos
-              p Una comprobación de rango verifica si los datos introducidos se encuentran dentro de un rango predefinido. Por ejemplo, la latitud y la longitud se utilizan habitualmente en los datos geográficos. Un valor de latitud debe estar entre -90 y 90, mientras que un valor de longitud debe estar entre -180 y 180. Cualquier valor fuera de este rango no es válido.
+            .tarjeta-flip__contenido.p-4.p-xl-4
+              h4.pt-4.text-center 3. Comprobación de rangos
+              p.small Una comprobación de rango verifica si los datos introducidos se encuentran dentro de un rango predefinido. Por ejemplo, la latitud y la longitud se utilizan habitualmente en los datos geográficos. Un valor de latitud debe estar entre -90 y 90, mientras que un valor de longitud debe estar entre -180 y 180. Cualquier valor fuera de este rango no es válido.
 
     .row.mb-5.justify-space-evenly
       .col-sm-6.col-xl-3.mb-4.mb-xl-0.cont1
@@ -181,9 +182,9 @@
               div
                 h3.p-4.text-center 4. Comprobación del formato
               
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              h3.pt-2.text-center 4. Comprobación del formato
-              p Muchos tipos de datos siguen un formato predefinido. Un caso de uso común son las columnas de fecha que se almacenan en un formato fijo como "AAAA-MM-DD" o "DD-MM-AAAA". Un procedimiento de validación de datos que garantice que las fechas tienen el formato adecuado ayuda a mantener la coherencia entre los datos y a lo largo del tiempo.  
+            .tarjeta-flip__contenido.p-4.p-xl-4
+              h4.pt-4.text-center 4. Comprobación del formato
+              p.small Muchos tipos de datos siguen un formato predefinido. Un caso de uso común son las columnas de fecha que se almacenan en un formato fijo como "AAAA-MM-DD" o "DD-MM-AAAA". Un procedimiento de validación de datos que garantice que las fechas tienen el formato adecuado ayuda a mantener la coherencia entre los datos y a lo largo del tiempo.  
 
       .col-sm-6.col-xl-3.mb-4.mb-xl-0.cont1
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
@@ -194,9 +195,9 @@
               div
                 h3.p-4.text-center 5. Comprobación de consistencia
               
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              h3.pt-2.text-center 5. Comprobación de consistencia
-              p Una comprobación de coherencia es un tipo de comprobación lógica que confirma que los datos se han introducido de forma lógicamente coherente. Un ejemplo es comprobar si la fecha de entrega es posterior a la fecha de envío de un paquete.
+            .tarjeta-flip__contenido.p-4.p-xl-4
+              h4.pt-4.text-center 5. Comprobación de consistencia
+              p.small Una comprobación de coherencia es un tipo de comprobación lógica que confirma que los datos se han introducido de forma lógicamente coherente. Un ejemplo es comprobar si la fecha de entrega es posterior a la fecha de envío de un paquete.
       
       .col-sm-6.col-xl-3.mb-4.mb-xl-0.cont1
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
@@ -207,9 +208,9 @@
               div
                 h3.p-4.text-center 6. Comprobación de unicidad
               
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              h3.pt-2.text-center 6. Comprobación de unicidad
-              p Algunos datos, como las identificaciones o las direcciones de correo electrónico, son únicos por naturaleza. Una base de datos debería tener entradas únicas en estos campos. Una comprobación de unicidad garantiza que un elemento no se introduzca varias veces en una base de datos.
+            .tarjeta-flip__contenido.p-4.p-xl-4
+              h4.pt-4.text-center 6. Comprobación de unicidad
+              p.small Algunos datos, como las identificaciones o las direcciones de correo electrónico, son únicos por naturaleza. Una base de datos debería tener entradas únicas en estos campos. Una comprobación de unicidad garantiza que un elemento no se introduzca varias veces en una base de datos.
 
 
 
@@ -243,7 +244,7 @@
           td Comprueba que un valor está dentro del rango especificado
         tr  
 
-    .tarjeta--azul.mb-4    
+    .tarjeta--azul.mb-4.p-4    
         p.mb-0 La validación de datos proporciona al usuario diferentes tipos de comprobaciones, basadas en el tipo de datos de la celda. También permite al usuario definir comprobaciones de validación personalizadas utilizando fórmulas de Excel. La validación de datos se encuentra en la sección Herramientas de datos de la pestaña Datos de la cinta de Excel.
         
       
