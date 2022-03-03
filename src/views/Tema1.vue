@@ -45,12 +45,12 @@
               p.mb-0 Responde a preguntas como por ejemplo: ¿cuál es la altura promedio en centímetros de una población?
 
     .row.justify-
-      .cajon-b.color-acento-contenido.p-0
-        p.mb-4 La estadística descriptiva se utiliza para describir las características básicas de los datos de un estudio; recoge, almacena, ordena para la construcción de gráficos y tablas calculando parámetros sencillos del grupo de datos. 
+      .contenedor--texto-right-blue3
+        p La estadística descriptiva se utiliza para describir las características básicas de los datos de un estudio; recoge, almacena, ordena para la construcción de gráficos y tablas calculando parámetros sencillos del grupo de datos. 
         br
-      .cajon-b.color-acento-contenido.p-0.mb-5
+      .contenedor--texto-left-blue3
         p.mb-4 Proporciona resúmenes sencillos sobre la muestra y las medidas; junto con un análisis gráfico sencillo, constituyen la base de prácticamente todos los análisis cuantitativos de datos.
-        p.mb-0 Algunas características de la estadística descriptiva son:
+        p.mb-4 Algunas características de la estadística descriptiva son:
     
     .row.justify-content-center.mb-4
       .col-lg-6

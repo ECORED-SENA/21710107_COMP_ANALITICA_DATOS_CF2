@@ -34,7 +34,7 @@
           .col-3.mb-4
             img.px-4(src='@/assets/curso/tema2/img03.svg')
       
-    <br/><br/>
+    <br/>
       p.mb-4 El proceso de validación de datos consta de cuatro pasos importantes:
 
       .row.justify-content-center-align-items-center

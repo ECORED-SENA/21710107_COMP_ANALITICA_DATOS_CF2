@@ -59,7 +59,7 @@
 
     .row.mb-5
       .col-12
-        .cajon.colorf.p-4.mb-4.flex-center
+        .cajon.colorf.p-4.flex-center
           p Se puede usar dos o más columnas para diagramar el texto, estos elementos pueden presentar contenedores que permitan diferenciar ideas o conceptos. 
         figure.pb-2.justify-content.center-center-column
          img.img90.flex-center(src='@/assets/curso/tema3/img03.svg')
@@ -109,16 +109,11 @@
          
     #t_3_1.titulo-segundo.color-secundario
       h2 3.1	Normativa
-
+      
     .row
-      .col-1.col-md-1.col-lg-1
-        figure
-          img.img40(src="@/assets/curso/tema3/img06.svg")
-    .row
-      .col-lg-12
-        .tarjeta.color-primario--claro.p-4
-          figure
-            img.img1100.pb-5(src="@/assets/curso/tema3/img07.png")
+      .tarjeta.color-primario--claro.p-4
+        figure.justify-content-center.align-items-center
+          img.img1100.pb-5(src="@/assets/curso/tema3/img07.png")
       
     .row
       .col-3.col-md-3.col-lg-1.mb-4.mb-4-lg-0
@@ -127,30 +122,92 @@
       .col-12.mb-4.col-md-9.col-Lg-11  
         h4 Legislación en Protección de Datos Personales en Colombia 
         p.mb-4 El siguiente video encontramos información sobre la legislación en protección de datos personales en Colombia: 
-
+    
     .row
       .col-3.col-md-3.col-lg-1.mb-4.mb-lg-0
         
       .col-12.col-md-9.col-Lg-11  
-        figure
+        figure.mb-4
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/bvAH9ppBbbE?feature=oembed" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
-    <br/><br/>
     <br/><br/>
 
     #t_3_2.titulo-segundo.color-secundario
       h2 3.2	Habeas Data 
 
-    .row
+    .row.mb-4
       .col-3.col-md-3.col-lg-1.mb-4.mb-4-lg-0
         figure
-        img(src="@/assets/curso/tema3/img06.svg")
+        img.img40(src="@/assets/curso/tema3/img06.svg")
       .col-12.mb-4.col-md-9.col-Lg-11.  
         El Derecho de Habeas Data se basa en Colombia por autorizar a los habitantes residentes a actualizar, conocer y rectificar toda la información que tengan las distintas entidades y bases de datos del territorio nacional. Nació como parte importante de los artículos 15 y 20 de la Constitución Política. Más adelante, fue desarrollado como derecho autosuficiente y sin dependencia, que disfrutan todos los colombianos.
       
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-5
+        .contenedor-imagen.position-bottom-left.color-primario.mb-4.mb-lg-0
+          figure.mb-4
+            img.img100.mb-4(src="@/assets/curso/tema2/img02.svg")
+            img(src="@/assets/curso/tema3/img10.svg")
+          .row
+        .col-9
+        .col-3
+          img.img100.mb-4(src='@/assets/curso/tema2/img04.svg')
+        
+      .col-lg-7
+        .row
+          .col-9
+          .col-3
+            figure.mb-4
+              img.px-4(src='@/assets/curso/tema3/img11.svg')
+        .row.tarjeta--azul.mb-4.p-5
+          .col-1.col-md-1.col-lg-1.mb-4.mb-lg-0
+            figure.mb-4.pt-2
+              img.img10(src='@/assets/curso/tema3/img12.svg')
+          .col-11.col-md-11.col-lg-11 
+              p.mb-4 Es desde 1995 que ya se comienza a tener esta excepción, no obstante, en el 2008 se crea la primera Ley de Habeas Data, la 1266, la cual tiene un carácter particular que solo aplica para la información financiera. Los bancos usan esta información para evaluar el peligro crediticio de una persona, como hábitos de pago, créditos tomados antes y sueldo o ingresos promedios.
+        .row.justify-content-center
+          .col-8.col-md-3.col-lg-2
+            figure.mb-4.mb-lg-0
+          .col-md-9
+            .row.mb-4
+          .col-9
+          .col-3.mb-4
+            img.px-4(src='@/assets/curso/tema2/img04.svg')
+      
+      .row.mb-5
+      .col-12
+        .cajon.colorf.p-4.flex-center
+          p La Ley 1266 de 2008, también conocida como Ley de Habeas Data, se aplica a todos los datos personales financieros, crediticios, comerciales y de servicios registrados en un banco de datos. En este sentido, la aplicación de la Ley 1266 de 2008 está encaminada a regular el uso de esa información y por tanto otro tipo de datos (por ejemplo, aquellos mantenidos en un ámbito exclusivamente personal o doméstico o los que se incluyen en una historia clínica) se encuentran excluidos de la aplicación de esta norma. 
+        figure.pb-2.justify-content.center-center-column.mb-4
+         img.img90.flex-center.mb-4(src='@/assets/curso/tema3/img13.svg')
+          
+      .col-1.col-md-1.col-lg-1.mb-lg-0
+        figure.mb-4.pt-2
+          img.img10(src='@/assets/curso/tema3/img12.svg')
+      .col-11.col-md-11.col-lg-11
+       .row.justify-
+        .contenedor--texto-right
+          p.mb-4 Por su lado, la ley más vigente del derecho de Habeas Data ha sido emitida en el 2012. La Ley 1581 es de carácter general y se aplica en todos los espacios de recolección de datos de una persona y que, por lo tanto, no son financieros ni crediticios. Son usados por entidades de naturaleza pública o privada. En esta ley resume todo el funcionamiento de la información de una persona.
+        .contenedor--texto-left-pink2
+          p.mb-4.flex-left Ninguna entidad puede hacer uso de esta información sin el permiso que el mismo dueño autorice de ella. La empresa o persona que sin la autorización debida realice uso de datos individuales recibirá una sanción y multa. Es por ello, que continuamente piden una aceptación una vez que se firma un contrato o se hace una compra.
 
-
+    .row.mb-4
+      .col-3.col-md-3.col-lg-1.mb-lg-0
+        figure
+          img.img40(src="@/assets/curso/tema3/img06.svg")
+      .col-12.col-md-9.col-Lg-11
+          h4.pt-3 Habeas data en Colombia:
+          p.small Los invitamos a revisar el siguiente video donde se expone la definición de habeas data en Colombia:
+    .row
+      .col-3.col-md-3.col-lg-1.mb-lg-0
+        
+      .col-9.col-md-9.col-Lg-11  
+        figure.mb-5
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/watch?v=zDgCQeyHr7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+       
+      
 </template>
 
 <script>
