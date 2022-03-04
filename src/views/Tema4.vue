@@ -7,35 +7,29 @@
         span 4
       h1 Técnicas de análisis de datos 
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5.p-4
       .col-lg-5
         .contenedor-imagen.position-bottom-left.color-primario.mb-4.mb-lg-0
           figure.mb-4
-            img(src="@/assets/curso/tema4/img01.svg")
-          
+            img(src="@/assets/curso/tema4/img01.svg")    
       .col-lg-7
-        .row.mb-4
-          .col-9
-          .col-3
-            figure.mb-4.pt-5
-              img.px-4(src='@/assets/curso/tema2/img02.svg')
+        .row.justify-content-end
+          .col-3.mb-4
+            figure.mb-4.pt-5.flex-end
+              img.img100(src='@/assets/curso/tema2/img02.svg')
         .contenedor.contenedor--texto-right
           p.mb-4 Los métodos y técnicas de análisis de datos son útiles para encontrar información en los datos, como métricas, hechos y cifras. Los dos métodos principales de análisis de datos son las técnicas de análisis de datos cualitativos y las técnicas de análisis de datos cuantitativos. 
         .contenedor.contenedor--texto-left
           p.mb-4 Estas técnicas de análisis de datos pueden utilizarse de forma independiente o en combinación con la otra para ayudar a los líderes empresariales y a los responsables de la toma de decisiones a adquirir conocimientos empresariales a partir de diferentes tipos de datos.
-        .row.justify-content-center
-          .col-8.col-md-4.col-lg-2
+        .row
+          .col-md-3.col-lg-2
             figure.mb-4.mb-lg-0
-              img(src="@/assets/curso/tema1/img09.svg")
+              img.img85(src="@/assets/curso/tema1/img09.svg")
           .col-md-9
-          .col-8.col-md-3.col-lg-2
-            figure.mb-4.mb-lg-0
-          .col-md-9
-            .row.mb-4
-          .col-9
+        .row.justify-content-end
           .col-3.mb-4
-            img.px-4(src='@/assets/curso/tema2/img02.svg')
-
+            figure.mb-4.pt-5.flex-end  
+              img.img100(src='@/assets/curso/tema2/img02.svg')
     .row.mb-4
       .col-md-1
         figure.pt-4
@@ -59,32 +53,26 @@
 
     .row.justify-content-center.mb-5
       .col-lg-5
-        figure
-          img.img100(src='@/assets/curso/tema2/img16.svg')
-          .col-md-8
-            p Metodología datos masivos
+        .col-2.col-md-2.col-lg-3.mb-4.mb-lg-0
+          figure
+            img.img100(src='@/assets/curso/tema2/img16.svg')
+        p Metodología datos masivos 
         .contenedor-imagen.position-bottom-left.color-primario.mb-4.mb-lg-0
           figure.mb-4
             img(src="@/assets/curso/tema4/img04.svg")
-          .row
-        .col-9
-        .col-3
-          img(src='@/assets/curso/tema4/img07.svg')
-        
+          figure
+            img.img100(src='@/assets/curso/tema4/img07.svg')       
       .col-lg-7
         .row.mb-4.pt-5
           .contenedor--texto-right-blue
-            p.mb-4.pt-5 En términos de metodología, la analítica de Big Data difiere significativamente del enfoque estadístico tradicional del diseño experimental, así la analítica comienza con los datos que modelamos de forma que expliquen una respuesta para cumplir con el objetivo de este enfoque donde se busca predecir el comportamiento de la respuesta o entender cómo se relacionan las variables de entrada.
+            p.mb-4.pt-5.px-2 En términos de metodología, la analítica de Big Data difiere significativamente del enfoque estadístico tradicional del diseño experimental, así la analítica comienza con los datos que modelamos de forma que expliquen una respuesta para cumplir con el objetivo de este enfoque donde se busca predecir el comportamiento de la respuesta o entender cómo se relacionan las variables de entrada.
           .contenedor--texto-left-blue
-            p.mb-4 Normalmente, en los diseños experimentales estadísticos, se desarrolla un experimento y se obtienen datos como resultado. Esto permite generar datos de forma que puedan ser utilizados por un modelo estadístico, donde se cumplen ciertos supuestos como la independencia, la normalidad y la aleatoriedad.
-        .row.justify-content-center
-          .col-8.col-md-3.col-lg-2
-            figure.mb-4.mb-lg-0
-          .col-md-9
-            .row.mb-4
-          .col-9
-          .col-3.mb-4
-            img.px-4(src='@/assets/curso/tema4/img05.svg')
+            p.mb-4.px-2 Normalmente, en los diseños experimentales estadísticos, se desarrolla un experimento y se obtienen datos como resultado. Esto permite generar datos de forma que puedan ser utilizados por un modelo estadístico, donde se cumplen ciertos supuestos como la independencia, la normalidad y la aleatoriedad.
+        .row.justify-content-end
+          .col-8.col-md-11.col-lg-2
+            figure.mb-4
+              img.img85(src='@/assets/curso/tema4/img05.svg')
+          
 
     .bloque-texto-f.color-acento-botones-claro.pt-4.px-5.mb-5
       .bloque-texto-f__comillas
@@ -115,9 +103,9 @@
       .col-3.col-md-3.col-lg-1.mb-4.mb-lg-0
         
       .col-9.col-md-9.col-Lg-11  
-        figure.mb-5
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/watch?v=Xecxmof0zs0&ab_channel=EmmanuelGordilloEspinoza" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figure.mb-5
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/Xecxmof0zs0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 </template>

@@ -11,29 +11,21 @@
       .col-lg-5
         .contenedor-imagen.position-bottom-left.color-primario.mb-4.mb-lg-0
           figure.mb-4
-            img(src="@/assets/curso/tema3/img01.svg")
-          
+            img(src="@/assets/curso/tema3/img01.svg")       
       .col-lg-7
         .row
-          .col-9
-          .col-3
-            figure.mb-4
-              img.px-4(src='@/assets/curso/tema2/img02.svg')
+          figure.mb-5.pt-2.flex-end
+            img.img100(src='@/assets/curso/tema2/img02.svg')
         .contenedor--texto-right-pink3
           p.mb-4.pt-5 Por información confidencial se entiende la comunicación personal o la información relacionada con la actividad de una organización que es desconocida para el público y solo se comparte entre unas pocas personas. Esta información llega a manos de las diferentes entidades a través de su trabajo.
         .contenedor--texto-left
           p.mb-4 Algunos ejemplos comunes de información confidencial son, entre otros, los presentados en la siguiente infografía: 
-        .row.justify-content-center
-          .col-8.col-md-3.col-lg-2
-            figure.mb-4.mb-lg-0
-          .col-md-9
-            .row.mb-4
-          .col-9
-          .col-3.mb-4
-            img.px-4(src='@/assets/curso/tema2/img02.svg')
+        .row
+          figure.mb-4.pt-5.flex-end
+            img.img100(src='@/assets/curso/tema2/img02.svg')
 
     .row.justify-content-center-align-items-center
-      ImagenInfografica.color-secundario.mb-5.center-center-column
+      ImagenInfografica.color-acento-botones.mb-5.center-center-column
         template(v-slot:imagen)
           figure.mb-4
             img.img800(src='@/assets/curso/tema3/img02.png', alt='Texto que describa la imagen')
@@ -124,14 +116,10 @@
       .col-12.mb-4.col-md-9.col-Lg-11  
         h4 Legislación en Protección de Datos Personales en Colombia 
         p.mb-4 El siguiente video encontramos información sobre la legislación en protección de datos personales en Colombia: 
-    
-    .row.justify-content-center.align-items-center
-      .col-3.col-md-3.col-lg-1.mb-4.mb-lg-0
-        
-      .col-12.col-md-9.col-Lg-11  
-        figure.mb-4
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/bvAH9ppBbbE?feature=oembed" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    figure.mb-4
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/bvAH9ppBbbE?feature=oembed" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
     <br/><br/>
 
@@ -158,24 +146,17 @@
         
       .col-lg-7
         .row
-          .col-9
-          .col-3
-            figure.mb-4
-              img.px-4(src='@/assets/curso/tema3/img11.svg')
-        .row.tarjeta--azul.mb-4.p-5
+          figure.mb-4.flex-end
+            img.img120(src='@/assets/curso/tema3/img11.svg')
+        .row.colorgris.mb-4.p-5
           .col-1.col-md-1.col-lg-1.mb-4.mb-lg-0
             figure.mb-4.pt-2
               img.img10(src='@/assets/curso/tema3/img12.svg')
           .col-11.col-md-11.col-lg-11 
               p.mb-4 Es desde 1995 que ya se comienza a tener esta excepción, no obstante, en el 2008 se crea la primera Ley de Habeas Data, la 1266, la cual tiene un carácter particular que solo aplica para la información financiera. Los bancos usan esta información para evaluar el peligro crediticio de una persona, como hábitos de pago, créditos tomados antes y sueldo o ingresos promedios.
         .row.justify-content-center
-          .col-8.col-md-3.col-lg-2
-            figure.mb-4.mb-lg-0
-          .col-md-9
-            .row.mb-4
-          .col-9
-          .col-3.mb-4
-            img.px-4(src='@/assets/curso/tema2/img04.svg')
+          figure.mb-4.flex-end
+            img.img100(src='@/assets/curso/tema2/img04.svg')
 
       .bloque-texto-f.color-acento-botones-claro.pt-4.px-5.mb-5
         .bloque-texto-f__comillas
@@ -202,13 +183,10 @@
       .col-12.col-md-9.col-Lg-11
           h4.pt-3 Habeas data en Colombia:
           p.small Los invitamos a revisar el siguiente video donde se expone la definición de habeas data en Colombia:
-    .row.justify-content-center.align-items-center
-      .col-3.col-md-3.col-lg-1.mb-lg-0
-        
-      .col-9.col-md-9.col-Lg-11  
-        figure.mb-5
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/watch?v=zDgCQeyHr7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row.justify-content-center.align-items-center            
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/zDgCQeyHr7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
        
       
 </template>

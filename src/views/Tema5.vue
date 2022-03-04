@@ -14,9 +14,8 @@
             img.img85.mb-4(src="@/assets/curso/tema5/img01.svg")
             img.pt-4(src="@/assets/curso/tema5/img02.png")
       .col-lg-7
-        .row
-          .col-11
-          .col-1
+       
+        .contenedor--texto-right-pink5
           p.pt-5 Se conoce como procedimiento administrativo aquel que es utilizado en la gestión de la misma actividad, a través de sus 4 fases: planear, controlar, organizar y dirigir.       
              figure.flex-right 
               img.img85(src='@/assets/curso/tema5/img03.svg')
@@ -97,7 +96,7 @@
   
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://youtu.be/1yAOUdaaYxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/1yAOUdaaYxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.justify-content-center.mb-5
       .col-lg-5

@@ -73,17 +73,13 @@
             .col-10
               p.mb-0 La estadística descriptiva suele distinguirse de las estadísticas inferenciales. Con la estadística descriptiva simplemente se describe lo que es o lo que muestran los datos
       .col-lg-6
-        .row
-          .col-9
-          .col-3
-            img(src='@/assets/curso/tema1/img08.svg')
+        figure.mb-4.flex-end
+          img.img110(src='@/assets/curso/tema1/img08.svg')
         p.mb-4 Para tener una mayor apropiación de la estadística descriptiva, se hace necesario reconocer los elementos que llevan a otro tipo de estadística, como lo es la estadística inferencial la cual suele utilizarse para comparar las diferencias entre los grupos de tratamiento. Esta, utiliza las mediciones de la muestra de sujetos del experimento para comparar los grupos de tratamiento y hacer generalizaciones sobre la población más amplia de sujetos.
         p.mb-4 Existen diferentes tipos de estadísticas inferenciales y cada una es apropiada para un diseño de investigación específico y para las características de la muestra. Los investigadores deben consultar los numerosos textos sobre diseño experimental y estadística para encontrar la prueba estadística adecuada para su experimento. 
         p.mb-0 Sin embargo, la mayoría de las estadísticas descriptivas se basan en el principio de que el valor de la prueba estadística se calcula sobre la base de una fórmula particular. Ese valor, junto con los grados de libertad, una medida relacionada con el tamaño de la muestra y los criterios de rechazo se utilizan para determinar si existen diferencias entre los grupos de tratamiento, de esta manera se puede aportar a los detalles que se comparten desde la estadística descriptiva. 
-        .row
-          .col-9
-          .col-3
-            img(src='@/assets/curso/tema1/img09.svg')
+          figure.mb-4.flex-end
+            img.img110(src='@/assets/curso/tema1/img09.svg')
 
     p.mb-5 De esta manera la estadística inferencial permite concluir el análisis que se realiza a través de los datos suministrados por la de la estadística descriptiva, de allí su relación con lo descrito anteriormente.
 
@@ -108,8 +104,6 @@
           .contenedor--texto-left-pink4
             p.mb-4 Por ejemplo, consideremos un simple número utilizado para resumir el rendimiento de un bateador en el béisbol, la media de bateo. Este número es simplemente el número de hits dividido por el número de veces que se batea (con tres dígitos significativos). Un bateador que batea 0,333 acierta una vez cada tres veces al bate. Uno que batea .250 está bateando una vez en cuatro. El número único describe un gran número de eventos discretos. O consideremos el azote de muchos estudiantes, el promedio de calificaciones. Este único número describe el rendimiento general de un estudiante en una gama potencialmente amplia de experiencias de curso.
         .row.colorgris.p-4
-          .col-lg-5
-          .col-lg-7
           .col-1.col-md-1.col-lg-1.mb-4.mb-lg-0
             figure.pt-5 
               img.img10.pt-4(src="@/assets/curso/tema3/img12.svg")
