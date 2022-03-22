@@ -5,7 +5,7 @@ export default {
     descripcionCurso:
       'Los sistemas de información logística sirven para unir datos involucrados con una o varias ocupaciones en la cadena de abastecimiento o procesos logísticos, en tiempo real. Se almacenan y entregan por medio de gráficos dinámicos, reportes o informes, cuando el departamento logístico lo necesita y este paralelamente lo comparte, cumpliendo con normativa de tratamiento de datos vigente, hasta llegar al cliente final.',
     imagenBannerPrincipal: require('@/assets/curso/banner_principal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo_banner_principal.jpg'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo_banner_principal.png'),
   },
   menuPrincipal: {
     menu: [
@@ -208,8 +208,7 @@ export default {
       texto:
         'Superintendencia de Industria y Comercio. (2021). Protección de Datos Personales.',
       tipo: 'Artículo',
-      descarga:
-        'https://www.sic.gov.co/sobre-la-proteccion-de-datos-personales',
+      link: 'https://www.sic.gov.co/sobre-la-proteccion-de-datos-personales',
     },
     {
       texto:
@@ -247,25 +246,24 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Yerson Fabian Zarate Saavedra',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Marcia Elizabeth Solano Alvarez',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy María Ruíz Torres',
         cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yenny Patricia Ulloa Villamizar',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

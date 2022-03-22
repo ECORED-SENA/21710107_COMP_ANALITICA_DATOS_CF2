@@ -10,7 +10,7 @@
     .row.justify-content-center.mb-5.p-4
       .col-lg-5
         .contenedor-imagen.position-bottom-left.color-primario.mb-4.mb-lg-0
-          figure.mb-4
+          figure
             img(src="@/assets/curso/tema4/img01.svg")    
       .col-lg-7
         .row.justify-content-end
@@ -23,40 +23,39 @@
           p.mb-4 Estas técnicas de análisis de datos pueden utilizarse de forma independiente o en combinación con la otra para ayudar a los líderes empresariales y a los responsables de la toma de decisiones a adquirir conocimientos empresariales a partir de diferentes tipos de datos.
         .row
           .col-md-3.col-lg-2
-            figure.mb-4.mb-lg-0
+            figure.mb-lg-0
               img.img85(src="@/assets/curso/tema1/img09.svg")
           .col-md-9
         .row.justify-content-end
-          .col-3.mb-4
-            figure.mb-4.pt-5.flex-end  
+          .col-3
+            figure.flex-end  
               img.img100(src='@/assets/curso/tema2/img02.svg')
-    .row.mb-4
+    .row.mb-4.justify-content-center-align-items-center
       .col-md-1
-        figure.pt-4
-         img(src="@/assets/curso/tema4/img02.svg") 
+        figure
+         img.img80.m-2(src="@/assets/curso/tema4/img02.svg") 
       .col-md-11   
         h4 Análisis de datos cuantitativos
         p.mb-4 El análisis de datos cuantitativos implica trabajar con variables numéricas, incluyendo estadísticas, porcentajes, cálculos, mediciones y otros datos, ya que la naturaleza de los datos cuantitativos es numérica. Las técnicas de análisis de datos cuantitativos suelen incluir el trabajo con algoritmos, herramientas de análisis matemático y programas informáticos para manipular los datos y descubrir ideas que revelen el valor empresarial.
-        p.mb-4 Por ejemplo, un analista de datos financieros puede cambiar una o más variables en el balance de Excel de una empresa para proyectar los futuros resultados financieros de su empleador. El análisis de datos cuantitativos también puede utilizarse para evaluar los datos del mercado y ayudar a una empresa a fijar un precio competitivo para su nuevo producto.
+        p.mb-1 Por ejemplo, un analista de datos financieros puede cambiar una o más variables en el balance de Excel de una empresa para proyectar los futuros resultados financieros de su empleador. El análisis de datos cuantitativos también puede utilizarse para evaluar los datos del mercado y ayudar a una empresa a fijar un precio competitivo para su nuevo producto.
 
     .linea--parrafo.mb-5
-    .row
+    .row.justify-content-center-align-items-center
       .col-md-1
-        figure.pt-4
-         img(src="@/assets/curso/tema4/img03.svg") 
+        figure
+         img.img80.m-2(src="@/assets/curso/tema4/img03.svg") 
       .col-md-11   
         h4 Análisis de datos cualitativos
         p.mb-4 Los datos cualitativos describen información que no suele ser numérica. El enfoque del análisis de datos cualitativos implica trabajar con identificadores únicos, como etiquetas y propiedades, y variables categóricas, como estadísticas, porcentajes y medidas. En el análisis de datos cualitativos, un analista de datos puede utilizar enfoques de observación directa o participante, realizar entrevistas, organizar grupos de discusión o revisar documentos y artefactos.
-        p.mb-4 Por ejemplo, las técnicas de análisis cualitativo de datos suelen formar parte del proceso de desarrollo de software. Los probadores de software registran los fallos que van desde errores funcionales hasta faltas de ortografía para determinar la gravedad de los mismos en una escala predeterminada: de crítico a bajo. Cuando se recogen, estos datos proporcionan información que puede ayudar a mejorar el producto final. 
+        p.mb-1 Por ejemplo, las técnicas de análisis cualitativo de datos suelen formar parte del proceso de desarrollo de software. Los probadores de software registran los fallos que van desde errores funcionales hasta faltas de ortografía para determinar la gravedad de los mismos en una escala predeterminada: de crítico a bajo. Cuando se recogen, estos datos proporcionan información que puede ayudar a mejorar el producto final. 
     <br/>
-    .linea--parrafo.mb-5
+    .linea--parrafo.mb-4
 
     .row.justify-content-center.mb-5
       .col-lg-5
         .col-2.col-md-2.col-lg-3.mb-4.mb-lg-0
           figure
-            img.img100(src='@/assets/curso/tema2/img16.svg')
-        p Metodología datos masivos 
+            img.img100.mb-4(src='@/assets/curso/tema2/img16.svg')
         .contenedor-imagen.position-bottom-left.color-primario.mb-4.mb-lg-0
           figure.mb-4
             img(src="@/assets/curso/tema4/img04.svg")
@@ -64,8 +63,9 @@
             img.img100(src='@/assets/curso/tema4/img07.svg')       
       .col-lg-7
         .row.mb-4.pt-5
+          h4.mb-4 Metodología datos masivos 
           .contenedor--texto-right-blue
-            p.mb-4.pt-5.px-2 En términos de metodología, la analítica de Big Data difiere significativamente del enfoque estadístico tradicional del diseño experimental, así la analítica comienza con los datos que modelamos de forma que expliquen una respuesta para cumplir con el objetivo de este enfoque donde se busca predecir el comportamiento de la respuesta o entender cómo se relacionan las variables de entrada.
+            p.mb-4.px-2 En términos de metodología, la analítica de Big Data difiere significativamente del enfoque estadístico tradicional del diseño experimental, así la analítica comienza con los datos que modelamos de forma que expliquen una respuesta para cumplir con el objetivo de este enfoque donde se busca predecir el comportamiento de la respuesta o entender cómo se relacionan las variables de entrada.
           .contenedor--texto-left-blue
             p.mb-4.px-2 Normalmente, en los diseños experimentales estadísticos, se desarrolla un experimento y se obtienen datos como resultado. Esto permite generar datos de forma que puedan ser utilizados por un modelo estadístico, donde se cumplen ciertos supuestos como la independencia, la normalidad y la aleatoriedad.
         .row.justify-content-end

@@ -65,7 +65,7 @@
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img.img120(src='@/assets/curso/tema3/img04.svg' alt='AvatarTop')
-          .tarjeta.color.tarjeta.tarjeta--azul
+          .tarjeta.color.color.BG06
             .text-black.p-4
               h2.text-center Titular de la información: 
               p “persona natural cuyos datos personales sean objeto de Tratamiento”.
@@ -73,7 +73,7 @@
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img.img120(src='@/assets/curso/tema3/img04.svg' alt='AvatarTop')
-          .tarjeta.color.tarjeta.tarjeta--azul
+          .tarjeta.color.color.BG06
             .p-4
               h2.text-center Responsable del Tratamiento:
               p.text-center “Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, decida sobre la base de datos y/o el Tratamiento de los datos”.
@@ -81,12 +81,12 @@
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img.img120(src='@/assets/curso/tema3/img04.svg' alt='AvatarTop')
-          .tarjeta.color.tarjeta.tarjeta--azul
+          .tarjeta.color.color.BG06
             .p-4
               h2.text-center Encargado del Tratamiento: 
               p.text-center “Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, realice el Tratamiento de datos personales por cuenta del Responsable del Tratamiento.” 
 
-    .tarjeta.color-secundario.p-4.mb-5
+    .tarjeta.background-morado.p-4.mb-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/tema3/img05.svg")
@@ -103,11 +103,13 @@
          
     #t_3_1.titulo-segundo.color-secundario
       h2 3.1	Normativa
+
+    P La autorización especial de datos personales sensibles refiere a la implementación y uso de los diferentes medios disponibles para la obtención de la autorización de información de los titulares; es decir, el manejo de los datos sensibles; no obstante, la Ley 1581 de 2012, los decretos y normas reglamentarias, faculta el manejo de los datos, por tanto, no se tiene obligatoriedad de otorgar autorización para el tratamiento de los datos sensibles. 
       
     .row
       .tarjeta.color-primario--claro.p-4
         figure.justify-content-center.align-items-center
-          img.img1100.pb-5(src="@/assets/curso/tema3/img07.png")
+          img.img1100.pb-5(src="@/assets/curso/tema3/img07.svg")
       
     .row
       .col-3.col-md-3.col-lg-1.mb-4.mb-4-lg-0
@@ -130,7 +132,7 @@
       .col-3.col-md-3.col-lg-1.mb-4.mb-4-lg-0
         figure
         img.img40(src="@/assets/curso/tema3/img06.svg")
-      .col-12.mb-4.col-md-9.col-Lg-11.  
+      .col-9.mb-4.col-md-9.col-Lg-11  
         El Derecho de Habeas Data se basa en Colombia por autorizar a los habitantes residentes a actualizar, conocer y rectificar toda la información que tengan las distintas entidades y bases de datos del territorio nacional. Nació como parte importante de los artículos 15 y 20 de la Constitución Política. Más adelante, fue desarrollado como derecho autosuficiente y sin dependencia, que disfrutan todos los colombianos.
       
     .row.justify-content-center.align-items-center.mb-5
@@ -180,7 +182,7 @@
       .col-3.col-md-3.col-lg-1.mb-lg-0
         figure
           img.img40(src="@/assets/curso/tema3/img06.svg")
-      .col-12.col-md-9.col-Lg-11
+      .col-9.col-md-9.col-Lg-11
           h4.pt-3 Habeas data en Colombia:
           p.small Los invitamos a revisar el siguiente video donde se expone la definición de habeas data en Colombia:
     .row.justify-content-center.align-items-center            
@@ -188,7 +190,7 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/zDgCQeyHr7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
        
-      
+
 </template>
 
 <script>
