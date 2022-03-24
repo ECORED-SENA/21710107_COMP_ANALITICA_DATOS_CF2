@@ -4,7 +4,7 @@ export default {
       'Administración y normativa de registros de información',
     descripcionCurso:
       'Los sistemas de información logística sirven para unir datos involucrados con una o varias ocupaciones en la cadena de abastecimiento o procesos logísticos, en tiempo real. Se almacenan y entregan por medio de gráficos dinámicos, reportes o informes, cuando el departamento logístico lo necesita y este paralelamente lo comparte, cumpliendo con normativa de tratamiento de datos vigente, hasta llegar al cliente final.',
-    imagenBannerPrincipal: require('@/assets/curso/banner_principal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/banner_principal3.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo_banner_principal.png'),
   },
   menuPrincipal: {

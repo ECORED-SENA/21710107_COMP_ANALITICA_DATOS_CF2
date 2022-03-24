@@ -33,35 +33,35 @@
             .tarjeta-avatar-b__img
               img(src='@/assets/curso/tema2/img05.svg' alt="AvatarTop" height="250")
             .tarjeta.color.BG06.p-4
-              .px-5 
+              .px-4.m-4
                 h3 1. Plan de detalle
                 p.mb-0 Es el paso más crítico, para crear la hoja de ruta adecuada para la validación de datos. Se trata de la expectativa general si hay un problema en los datos de origen, entonces ¿cómo resolver ese problema? Se trata de definir el número de iteraciones necesarias durante la validación de los datos.
 
         .col-lg-6
-          .tarjeta-avatar-b.mb-5 
+          .tarjeta-avatar-b.mb-5
             .tarjeta-avatar-b__img
               img(src='@/assets/curso/tema2/img06.svg' alt='AvatarTop' height="250")
             .tarjeta.color.BG06.p-4
-              .px-5
+              .px-5.m-2.pt-3
                 h3 2. Validación de la base de datos
-                p.mb-0 Se encarga de garantizar que todos los datos aplicables están presentes desde el origen hasta el destino. Este paso es responsable de determinar el número de registros, el tamaño de los datos, la comparación de la fuente y el destino basado en el campo de datos. 
-
+                p.mb-5 Se encarga de garantizar que todos los datos aplicables están presentes desde el origen hasta el destino. Este paso es responsable de determinar el número de registros, el tamaño de los datos, la comparación de la fuente y el destino basado en el campo de datos. 
+      
         .col-lg-6
           .tarjeta-avatar-b.mb-5
             .tarjeta-avatar-b__img
               img(src='@/assets/curso/tema2/img07.svg' alt='AvatarTop' height="250")
             .tarjeta.color.BG06.p-4
-              .px-5
-                h3 3. Validar el formato de los datos
-                p.mb-0 El objetivo principal es que los datos se entiendan claramente en el sistema de destino, los usuarios finales deben entender claramente los datos si están cumpliendo las expectativas del negocio o no.
+              .px-4.m-4.pt-3
+                h3.p-1 3. Validar el formato de los datos
+                p.mb-5 El objetivo principal es que los datos se entiendan claramente en el sistema de destino, los usuarios finales deben entender claramente los datos si están cumpliendo las expectativas del negocio o no.
 
         .col-lg-6
           .tarjeta-avatar-b.mb-5
             .tarjeta-avatar-b__img
               img(src='@/assets/curso/tema2/img08.svg' alt='AvatarTop' height="250")
             .tarjeta.color.BG06.p-4
-              .px-5
-                h3 4. Muestreo
+              .px-5.pt-0
+                h3.mb-2 4. Muestreo
                 p.mb-0 Antes de probar el gran conjunto de datos, es necesario hacer un muestreo. Es esencial hacer pruebas con una pequeña cantidad de datos y comprobar si los datos de la muestra cumplen con los requisitos de la empresa, en caso afirmativo, sólo se procederá con un gran conjunto de datos. De este modo, se reducirá la tasa de error de los datos y aumentará la calidad y la precisión de los mismos.
                  
         <br/><br/>

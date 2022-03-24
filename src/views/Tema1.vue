@@ -173,24 +173,13 @@
         .cajon.color-primario.p-4.mb-5.justify-content-center.align-items-center
           p.mb-0 Los datos cualitativos y cuantitativos se agrupan en procedimientos donde son utilizados en una investigación. 
   
-    .row
-      .col-12
-        .tabla-b__header.colorf
-          h5.colortext1 Los datos cualitativos
-      
-    .row.mb-5 
-      .col-12
-        table
-          thead
-          tbody
-            tr.BG022
-              td.p-4 No son estadísticos y suelen ser no estructurados o semiestructurados. Estos datos no se miden necesariamente con números duros que se utilizan para elaborar gráficos y diagramas. En cambio, se clasifican en función de propiedades, atributos, etiquetas y otros identificadores.
-              td.p-4 Pueden utilizarse para formular la pregunta "por qué". Se trata de una investigación y a menudo está abierta hasta que se lleve a cabo una investigación más profunda. La generación de estos datos de la investigación cualitativa se utiliza para teorizaciones, interpretaciones, desarrollo de hipótesis y comprensiones iniciales. 
-            tr
+    figure.mb-5
+      img(src="@/assets/curso/tema1/img21.svg")
+
     .row
       p.mb-4 Para entender mejor los datos cualitativos, tomemos el ejemplo de una librería. Las siguientes características de esta librería determinan la calidad de la información que tenemos sobre ella:
        <br/><br/>
-       ul.lista-ul--color
+       ul.lista-ul--color.ps-5
             li.mb-0
               i.fas.fa-check(style="color: #7F0F98")
               | Fabricada en madera
@@ -219,7 +208,7 @@
         p.mb-4 Mientras que los datos cualitativos están abiertos a la exploración, son mucho más concisos y cerrados. Pueden utilizarse para formular las preguntas "cuánto" o "cuántos", seguidas de información concluyente.
       p.mb-4 Los datos cuantitativos pueden generarse mediante:
         <br/><br/>
-        ul.lista-ul--color
+        ul.lista-ul--color.ps-5
             li.mb-0
               i.fas.fa-check(style="color: #7F0F98")
               | Pruebas
@@ -241,7 +230,7 @@
       figure.mb-4
         img(src='@/assets/curso/tema1/img15.png')
   
-      .row.colorf.p-4
+      .row.BG08.p-4
         .col-1.col-md-1.col-lg-1.mb-4.mb-lg-0
           figure 
             img.img10(src="@/assets/curso/tema1/img16.svg")

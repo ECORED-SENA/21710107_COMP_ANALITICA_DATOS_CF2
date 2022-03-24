@@ -86,7 +86,7 @@
               h2.text-center Encargado del Tratamiento: 
               p.text-center “Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, realice el Tratamiento de datos personales por cuenta del Responsable del Tratamiento.” 
 
-    .tarjeta.background-morado.p-4.mb-5
+    .tarjeta.background-morado.p-4.mb-3
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/tema3/img05.svg")
@@ -99,7 +99,7 @@
               a.boton.color-acento-botones.texto-negro(:href="obtenerLink('https://www.mintic.gov.co/arquitecturati/630/articles-9011_documento.pdf')" target="_blank")
                 span Descargar   
                 i.fas.fa-file-download
-        
+    Separador   
          
     #t_3_1.titulo-segundo.color-secundario
       h2 3.1	Normativa
@@ -119,21 +119,21 @@
         h4 Legislación en Protección de Datos Personales en Colombia 
         p.mb-4 El siguiente video encontramos información sobre la legislación en protección de datos personales en Colombia: 
 
-    figure.mb-4
+    figure.mb-3
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/bvAH9ppBbbE?feature=oembed" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      
-    <br/><br/>
+
+    Separador 
 
     #t_3_2.titulo-segundo.color-secundario
       h2 3.2	Habeas Data 
 
     .row.mb-4
-      .col-3.col-md-3.col-lg-1.mb-4.mb-4-lg-0
+      .col-3.col-md-1.col-lg-1.mb-4.mb-4-lg-0
         figure
-        img.img40(src="@/assets/curso/tema3/img06.svg")
-      .col-9.mb-4.col-md-9.col-Lg-11  
-        El Derecho de Habeas Data se basa en Colombia por autorizar a los habitantes residentes a actualizar, conocer y rectificar toda la información que tengan las distintas entidades y bases de datos del territorio nacional. Nació como parte importante de los artículos 15 y 20 de la Constitución Política. Más adelante, fue desarrollado como derecho autosuficiente y sin dependencia, que disfrutan todos los colombianos.
+          img.img40(src="@/assets/curso/tema3/img06.svg")
+      .col-9.mb-4.col-md-11.col-Lg-11  
+        p El Derecho de Habeas Data se basa en Colombia por autorizar a los habitantes residentes a actualizar, conocer y rectificar toda la información que tengan las distintas entidades y bases de datos del territorio nacional. Nació como parte importante de los artículos 15 y 20 de la Constitución Política. Más adelante, fue desarrollado como derecho autosuficiente y sin dependencia, que disfrutan todos los colombianos.
       
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5
@@ -169,7 +169,7 @@
       
     .row.mb-4   
       .col-1.col-md-1.col-lg-1.mb-lg-0
-        figure.mb-4.pt-2
+        figure.mb-4.pt-2.ps-3
           img.img10(src='@/assets/curso/tema3/img12.svg')
       .col-11.col-md-11.col-lg-11
        .row.justify-
