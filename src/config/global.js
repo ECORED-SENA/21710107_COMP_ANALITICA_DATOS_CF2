@@ -101,7 +101,7 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -149,6 +149,16 @@ export default {
     },
     {
       referencia:
+        'Gordillo, E. (07 septiembre 2020). Clase 02 - Datos masivos. [Video].',
+      link: 'https://www.youtube.com/watch?v=Xecxmof0zs0',
+    },
+    {
+      referencia:
+        'Escuela de Privacidad. (12 abril de 2020). Legislación en Protección de Datos Personales en Colombia. [Archivo vídeo].',
+      link: ' https://www.youtube.com/embed/bvAH9ppBbbE?feature=oembed',
+    },
+    {
+      referencia:
         'Ley 1581 de 2012. Marco general de la protección de los datos personales en Colombia. Por el cual se reglamenta parcialmente la Ley 1581 de 2012.',
       link:
         'https://www.mintic.gov.co/arquitecturati/630/articles-9011_documento.pdf',
@@ -158,6 +168,11 @@ export default {
         'Secretaria del Senado. (2021). Artículo 15 y 79 de la Constitución Política Nacional.',
       link:
         'http://www.secretariasenado.gov.co/senado/basedoc/constitucion_politica_1991.html#15',
+    },
+    {
+      referencia:
+        'Tu abogada a un clic. (01 octubre 2020). Habeas Data en Colombia. [Archivo de Vídeo].',
+      link: 'https://www.youtube.com/watch?v=zDgCQeyHr7U',
     },
   ],
   glosario: [
@@ -189,7 +204,7 @@ export default {
     {
       termino: 'Instrumento de evaluación',
       significado:
-        'Evalúa investigación ya sea preguntas, datos estadísticos o cualquier fuente para validar confiabilidad',
+        'Indican los insumos que aportan a la información a partir de preguntas, datos estadísticos o cualquier fuente para validar confiabilidad',
     },
     {
       termino: 'Transferencia de datos',

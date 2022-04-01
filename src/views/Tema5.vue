@@ -16,7 +16,7 @@
       .col-lg-7
        
         .contenedor--texto-right-pink5
-          p.pt-4 Se conoce como procedimiento administrativo aquel que es utilizado en la gestión de la misma actividad, a través de sus 4 fases: planear, controlar, organizar y dirigir.       
+          p.pt-4 Se conoce como proceso administrativo aquel que es utilizado en la gestión de la misma actividad, a través de sus 4 fases: planear, controlar, organizar y dirigir.       
              figure.flex-right.mb-4 
               img.img85(src='@/assets/curso/tema5/img03.svg')
           .contenedor--texto-left-pink7
@@ -49,7 +49,7 @@
             .col-md-7
               h4 2. Organizar
               p.mb-4 Además de la planificación, la capacidad organizativa de un directivo puede ayudar a garantizar el buen funcionamiento de una empresa o unidad departamental. Desde el establecimiento de procesos y estructuras internas hasta saber qué empleados o equipos son los más adecuados para tareas específicas, mantener a todos y todo organizado a lo largo de las operaciones diarias son funciones importantes de la gestión.
-              p Sin embargo, la organización no consiste sólo en delegar tareas de forma eficiente y asegurarse de que los empleados tienen lo que necesitan para realizar sus tareas. Los directivos también deben ser capaz de reorganizarse en respuesta a nuevos retos. Esto puede traducirse en la práctica en un ligero ajuste del calendario de un proyecto o en la reasignación de tareas de un equipo a otro. O bien, puede significar una alteración significativa de la estructura interna de un equipo y de sus funciones en respuesta al crecimiento de la empresa.
+              p Sin embargo, la organización no consiste solo en delegar tareas de forma eficiente y asegurarse de que los empleados tienen lo que necesitan para realizar sus tareas. Los directivos también deben ser capaz de reorganizarse en respuesta a nuevos retos. Esto puede traducirse en la práctica en un ligero ajuste del calendario de un proyecto o en la reasignación de tareas de un equipo a otro. O bien, puede significar una alteración significativa de la estructura interna de un equipo y de sus funciones en respuesta al crecimiento de la empresa.
           
       .py-4.py-md-7(titulo="3. Dirigir" :icono="require('@/assets/curso/tema5/img07.svg')")
         .tarjeta.border.border-4.p-4 
@@ -84,7 +84,7 @@
          img.img10(src='@/assets/curso/tema3/img12.svg')
       .col-11.col-md-11.col-lg-11
         .contenedor--texto-left-pink3
-          p.mb-4.pt-2 La planificación estratégica es el arte de crear estrategias empresariales específicas, ponerlas en práctica y evaluar los resultados de la ejecución del plan, en relación con los objetivos o deseos generales a largo plazo de una empresa. Es un concepto que se centra en la integración de varios departamentos (como contabilidad y finanzas, marketing y recursos humanos) dentro de una empresa para lograr sus objetivos estratégicos. El término planificación estratégica es esencialmente sinónimo de gestión estratégica.
+          p.mb-4.pt-2 La planificación estratégica es el arte de crear estrategias empresariales específicas, ponerlas en práctica y evaluar los resultados de la ejecución del plan, en relación con los objetivos o deseos generales a largo plazo de una empresa. Es un concepto que se centra en la integración de varios departamentos (como contabilidad y finanzas, <em>marketing</em> y recursos humanos) dentro de una empresa para lograr sus objetivos estratégicos. El término planificación estratégica es esencialmente sinónimo de gestión estratégica.
   
     figure.mb-5
       .video
@@ -119,12 +119,12 @@
         div
           h3 Formulación de la estrategia
           p.mb-4 Es el proceso de determinar y establecer las metas, la misión y los objetivos de una organización, e identificar los cursos o planes de acción apropiados y mejores entre todas las estrategias alternativas disponibles para alcanzarlos. Las estrategias empresariales tienen efectos a largo plazo sobre el éxito de la organización. Es común que la formulación de estrategias sea implementada por la alta dirección, debido a que es el área que suele estar autorizada para asignar los recursos necesarios para su aplicación.
-          p La organización prevé unos resultados concretos, que sólo podrá alcanzar siguiendo una ruta específica, o actuando dentro de los confines o parámetros de un marco específico. Esa ruta o marco se creará mediante la formulación de la estrategia.
+          p La organización prevé unos resultados concretos, que solo podrá alcanzar siguiendo una ruta específica, o actuando dentro de los confines o parámetros de un marco específico. Esa ruta o marco se creará mediante la formulación de la estrategia.
   
         div
           h3.text-start Implementación de la estrategia
           p.mb-4.text-start Una vez formulada la estrategia, la empresa debe establecer objetivos específicos o metas relacionadas con la puesta en marcha de la estrategia y asignar recursos para su ejecución. El éxito de la fase de aplicación suele depender de la calidad de la comunicación de la estrategia elegida por parte de la dirección de la empresa y de la aceptación por parte de todos los empleados del deseo de ponerla en práctica.
-          p.text-start La aplicación efectiva de la estrategia implica el desarrollo de una estructura sólida o marco, para la aplicación de la estrategia, la maximización de la utilización de los recursos pertinentes y la reorientación de los esfuerzos de marketing en línea con las metas y objetivos de la estrategia.
+          p.text-start La aplicación efectiva de la estrategia implica el desarrollo de una estructura sólida o marco, para la aplicación de la estrategia, la maximización de la utilización de los recursos pertinentes y la reorientación de los esfuerzos de <em>marketing</em> en línea con las metas y objetivos de la estrategia.
 
         div
           h3 Evaluación de la estrategia

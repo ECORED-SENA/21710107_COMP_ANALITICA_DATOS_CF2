@@ -62,7 +62,7 @@
             .tarjeta.color.BG06.p-4
               .px-5.pt-0
                 h3.mb-2 4. Muestreo
-                p.mb-0 Antes de probar el gran conjunto de datos, es necesario hacer un muestreo. Es esencial hacer pruebas con una pequeña cantidad de datos y comprobar si los datos de la muestra cumplen con los requisitos de la empresa, en caso afirmativo, sólo se procederá con un gran conjunto de datos. De este modo, se reducirá la tasa de error de los datos y aumentará la calidad y la precisión de los mismos.
+                p.mb-0 Antes de probar el gran conjunto de datos, es necesario hacer un muestreo. Es esencial hacer pruebas con una pequeña cantidad de datos y comprobar si los datos de la muestra cumplen con los requisitos de la empresa, en caso afirmativo, solo se procederá con un gran conjunto de datos. De este modo, se reducirá la tasa de error de los datos y aumentará la calidad y la precisión de los mismos.
                  
         <br/><br/>
         p.mb-4 La validación de datos se realiza normalmente utilizando un lenguaje comercial. Por ejemplo, se puede crear un archivo XML (método de almacenamiento) con los nombres de las bases de datos de origen y destino, los nombres de las tablas y las columnas a comparar. El sistema de información elegido puede entonces tomar el XML como entrada y procesar los resultados. Sin embargo, esto puede requerir mucho tiempo, ya que hay que escribir los datos y verificar los resultados a mano. De esta manera se comparte en el siguiente recurso las herramientas empresariales y las herramientas de código abierto, que se anexan como opciones para la verificación de datos:
@@ -92,11 +92,11 @@
         .tarjeta-color.color.BG06.mb-4.p-4.pb-1.pt-2  
           figure.flex-end.mb-4.mb-lg-0
             img.img80(src='@/assets/curso/tema2/img26.png') 
-          p.mb-0.p-2.m-3 Las pruebas se definen como la variedad de métodos, herramientas y prácticas que se utilizan para justificar que una aplicación de software funcione o no a diferentes niveles.
+          p.mb-0.p-2.m-3 Las pruebas se definen como la variedad de métodos, herramientas y prácticas que se utilizan para justificar que una aplicación de <em>software</em> funcione o no a diferentes niveles.
           figure.flex-end
             img.img35(src='@/assets/curso/tema2/img25.png')
         .row.justify-content-center.align-items-center.mb-5
-          p.mb-0.p-5.pt-0.pb-0 Para realizar la validación de datos es clave si queremos tener datos fiables, consistentes, precisos y completos. Para conseguir pruebas de validación eficientes, fáciles de ejecutar y acordes con los requisitos actuales, es necesario contar con soluciones que las optimicen a través de diferentes opciones y automatizaciones, entre otras la opción de validación de datos de informática.
+          p.mb-0.p-5.pt-0.pb-0 Para realizar la validación de datos es clave si queremos tener datos fiables, consistentes, precisos y completos. Para conseguir pruebas de validación eficientes, fáciles de ejecutar y acordes con los requisitos actuales, es necesario contar con soluciones que las optimicen a través de diferentes opciones y automatizaciones, entre otras, la opción de validación de datos de informática.
             figure.flex-end.mb-4.mb-lg-0
               img.img90(src='@/assets/curso/tema2/img16.svg').mb-4
         
@@ -204,7 +204,7 @@
           figure.mb-4
             img(src='@/assets/curso/tema2/img24.png')
         .col-md-7
-          p.pt-4.mb-4 De esta manera, el tipo de validación comprueba que los datos no sean demasiado cortos o largos y que los datos se han introducido en un campo de un valor está dentro del rango especificado, como se resume a continuación:
+          p.pt-4.mb-4 De esta manera, el tipo de validación comprueba que los datos no sean demasiado cortos o largos y que los datos que se han introducido en un campo de un valor está dentro del rango especificado, como se resume a continuación:
               figure.mb-4.flex-end
                 img.img90(src='@/assets/curso/tema2/img16.svg').pt-4
 
@@ -214,29 +214,29 @@
           thead
           tbody
             tr.BG022
-              td.p-4 Comprobación de la longitud
-              td.p-4 Comprueba que los datos no sean demasiado cortos o demasiado largos
+              td.p-4 Comprobación de la longitud.
+              td.p-4 Comprueba que los datos no sean demasiado cortos o demasiado largos.
             tr
         table
           thead
           tbody
             tr
-              td.p-4 Tabla de búsqueda
-              td.p-4 Busca valores aceptables en una tabla
+              td.p-4 Tabla de búsqueda.
+              td.p-4 Busca valores aceptables en una tabla.
             tr
         table
           thead
           tbody
             tr.BG022
-              td.p-4 Comprobación de presencia
-              td.p-4 Comprueba que se han introducido datos en un campo
+              td.p-4 Comprobación de presencia.
+              td.p-4 Comprueba que se han introducido datos en un campo.
             tr
         table
           thead
           tbody
             tr
-              td.p-4 Comprobación de rango 
-              td.p-4 Comprueba que un valor está dentro del rango especificado
+              td.p-4 Comprobación de rango. 
+              td.p-4 Comprueba que un valor está dentro del rango especificado.
             tr
 
     .tarjeta-color.color.BG06.mb-4.p-4    

@@ -45,7 +45,7 @@
 
     .row.justify-
       .contenedor--texto-right-blue3
-        p La estadística descriptiva se utiliza para describir las características básicas de los datos de un estudio; recoge, almacena, ordena para la construcción de gráficos y tablas calculando parámetros sencillos del grupo de datos. 
+        p La estadística descriptiva se utiliza para describir las características básicas de los datos de un estudio; recoge, almacena, ordena, para la construcción de gráficos y tablas calculando parámetros sencillos del grupo de datos. 
         br
       .contenedor--texto-left-blue3
         p.mb-4 Proporciona resúmenes sencillos sobre la muestra y las medidas; junto con un análisis gráfico sencillo, constituyen la base de prácticamente todos los análisis cuantitativos de datos.
@@ -115,7 +115,7 @@
     #t_1_1.titulo-segundo.color-secundario
       h2 1.1	Medidas de tendencia
     
-    p.mb-4 Las medidas tendencia central se definen como una estimación del centro de una distribución de valores. Hay tres tipos principales de estimaciones de la tendencia central:
+    p.mb-4 Las medidas de tendencia central se definen como una estimación del centro de una distribución de valores. Hay tres tipos principales de estimaciones de la tendencia central:
       figure.justify-content-center.align-items-center
         img.img800.mb-5(src="@/assets/curso/tema1/img10.png") 
     p.mb-4 Para ampliar la información de cada una de ellas, ingresa en este espacio:
@@ -173,8 +173,19 @@
         .cajon.color-primario.p-4.mb-5.justify-content-center.align-items-center
           p.mb-0 Los datos cualitativos y cuantitativos se agrupan en procedimientos donde son utilizados en una investigación. 
   
-    figure.mb-5
-      img(src="@/assets/curso/tema1/img21.svg")
+    .row.justify-content-center.mb-4
+      .col-lg-12.mb-5
+        table.mb-1
+          tr.BG09
+            td
+              .h4.text-center.p-2 Los datos cualitativos
+            td
+              .h4.text-center.p-2 Los datos cuantitativos
+        table
+          tr.BG022
+            td.px-5.pt-1 No son estadísticos y suelen ser no estructurados o semiestructurados. Estos datos no se miden necesariamente con números duros que se utilizan para elaborar gráficos y diagramas. En cambio, se clasifican en función de propiedades, atributos, etiquetas y otros identificadores.
+            td.p-5 Pueden utilizarse para formular la pregunta "por qué". Se trata de una investigación y a menudo está abierta hasta que se lleve a cabo una investigación más profunda. La generación de estos datos de la investigación cualitativa se utiliza para teorizaciones, interpretaciones, desarrollo de hipótesis y comprensiones iniciales.
+              
 
     .row
       p.mb-4 Para entender mejor los datos cualitativos, tomemos el ejemplo de una librería. Las siguientes características de esta librería determinan la calidad de la información que tenemos sobre ella:
@@ -182,53 +193,53 @@
        ul.lista-ul--color.ps-5
             li.mb-0
               i.fas.fa-check(style="color: #7F0F98")
-              | Fabricada en madera
+              | Fabricada en madera.
             li.mb-0
               i.fas.fa-check(style="color: #7F0F98")
-              | Construida en Bogotá
+              | Construida en Bogotá.
             li.mb-0
               i.fas.fa-check(style="color: #7F0F98")
-              | Color marrón oscuro
+              | Color marrón oscuro.
             li.mb-0
               i.fas.fa-check(style="color: #7F0F98")
-              | Pomos bronce
+              | Pomos bronce.
             li.mb-0
               i.fas.fa-check(style="color: #7F0F98")
-              | Acabado liso
+              | Acabado liso.
             li.mb-0
               i.fas.fa-check(style="color: #7F0F98")
-              | Fabricado en roble    
+              | Fabricado en roble.    
       p.mb-4 Los datos cuantitativos son estadísticos y suelen ser de naturaleza estructurada; es decir, más rígidos y definidos. Este tipo de datos se mide mediante números y valores, lo que los convierte en un candidato más adecuado para el análisis de datos.
 
     .row
       .col-1.col-md-3.col-lg-1.mb-4.mb-4-lg-0
         figure
-          img.px-3(src="@/assets/curso/tema1/img14.svg") 
+          img.img35.ms-5.mt-1(src="@/assets/curso/tema1/img14.svg") 
       .col-11.mb-4.col-md-9.col-Lg-11 
-        p.mb-4 Mientras que los datos cualitativos están abiertos a la exploración, son mucho más concisos y cerrados. Pueden utilizarse para formular las preguntas "cuánto" o "cuántos", seguidas de información concluyente.
+        p.mb-4.ms-5 Mientras que los datos cualitativos están abiertos a la exploración, son mucho más concisos y cerrados. Pueden utilizarse para formular las preguntas "cuánto" o "cuántos", seguidas de información concluyente.
       p.mb-4 Los datos cuantitativos pueden generarse mediante:
         <br/><br/>
         ul.lista-ul--color.ps-5
             li.mb-0
               i.fas.fa-check(style="color: #7F0F98")
-              | Pruebas
+              | Pruebas.
             li.mb-0
               i.fas.fa-check(style="color: #7F0F98")
-              | Experimentos
+              | Experimentos.
             li.mb-0
               i.fas.fa-check(style="color: #7F0F98")
-              | Encuestas
+              | Encuestas.
             li.mb-0
               i.fas.fa-check(style="color: #7F0F98")
-              | Informes de mercado
+              | Informes de mercado.
             li.mb-0
               i.fas.fa-check(style="color: #7F0F98")
-              | Métricas
+              | Métricas.
 
       p.mb-0.text-center De esta manera en el siguiente esquema se comparte los elementos esenciales del método estadístico: 
-
+      
       figure.mb-4
-        img(src='@/assets/curso/tema1/img15.png')
+        img(src='@/assets/curso/tema1/img22.svg')
   
       .row.BG08.p-4
         .col-1.col-md-1.col-lg-1.mb-4.mb-lg-0

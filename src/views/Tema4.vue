@@ -47,7 +47,7 @@
       .col-md-11   
         h4 Análisis de datos cualitativos
         p.mb-4 Los datos cualitativos describen información que no suele ser numérica. El enfoque del análisis de datos cualitativos implica trabajar con identificadores únicos, como etiquetas y propiedades, y variables categóricas, como estadísticas, porcentajes y medidas. En el análisis de datos cualitativos, un analista de datos puede utilizar enfoques de observación directa o participante, realizar entrevistas, organizar grupos de discusión o revisar documentos y artefactos.
-        p.mb-1 Por ejemplo, las técnicas de análisis cualitativo de datos suelen formar parte del proceso de desarrollo de software. Los probadores de software registran los fallos que van desde errores funcionales hasta faltas de ortografía para determinar la gravedad de los mismos en una escala predeterminada: de crítico a bajo. Cuando se recogen, estos datos proporcionan información que puede ayudar a mejorar el producto final. 
+        p.mb-1 Por ejemplo, las técnicas de análisis cualitativo de datos suelen formar parte del proceso de desarrollo de <em>software</em>. Los probadores de <em>software</em> registran los fallos que van desde errores funcionales hasta faltas de ortografía para determinar la gravedad de los mismos en una escala predeterminada: de crítico a bajo. Cuando se recogen, estos datos proporcionan información que puede ayudar a mejorar el producto final. 
     <br/>
     .linea--parrafo.mb-4
 
@@ -65,7 +65,7 @@
         .row.mb-4.pt-5
           h4.mb-4 Metodología datos masivos 
           .contenedor--texto-right-blue
-            p.mb-4.px-2 En términos de metodología, la analítica de Big Data difiere significativamente del enfoque estadístico tradicional del diseño experimental, así la analítica comienza con los datos que modelamos de forma que expliquen una respuesta para cumplir con el objetivo de este enfoque donde se busca predecir el comportamiento de la respuesta o entender cómo se relacionan las variables de entrada.
+            p.mb-4.px-2 En términos de metodología, la analítica de <em>Big Data</em> difiere significativamente del enfoque estadístico tradicional del diseño experimental, así la analítica comienza con los datos que modelamos de forma que expliquen una respuesta para cumplir con el objetivo de este enfoque donde se busca predecir el comportamiento de la respuesta o entender cómo se relacionan las variables de entrada.
           .contenedor--texto-left-blue
             p.mb-4.px-2 Normalmente, en los diseños experimentales estadísticos, se desarrolla un experimento y se obtienen datos como resultado. Esto permite generar datos de forma que puedan ser utilizados por un modelo estadístico, donde se cumplen ciertos supuestos como la independencia, la normalidad y la aleatoriedad.
         .row.justify-content-end
@@ -76,7 +76,7 @@
 
     .bloque-texto-f.color-acento-botones-claro.pt-4.px-5.mb-5
       .bloque-texto-f__comillas
-      p.text-center En el análisis de Big Data, se nos presentan los datos. No podemos diseñar un experimento que cumpla con nuestro modelo estadístico favorito. En las aplicaciones de analítica a gran escala, se necesita una gran cantidad de trabajo, normalmente el 80% del esfuerzo es solo para limpiar los datos, de modo que puedan ser utilizados por un modelo de aprendizaje automático.
+      p.text-center En el análisis de <em>big data</em>, se nos presentan los datos. No podemos diseñar un experimento que cumpla con nuestro modelo estadístico favorito. En las aplicaciones de analítica a gran escala, se necesita una gran cantidad de trabajo, normalmente el 80 % del esfuerzo es solo para limpiar los datos, de modo que puedan ser utilizados por un modelo de aprendizaje automático.
       .bloque-texto-f__autor.mb-0
         .bloque-texto-f__avatar__img
           img(src='@/assets/curso/tema4/img06.svg', alt='Texto que describa la imagen')
@@ -89,7 +89,7 @@
       .col-11.col-md-11.col-lg-11.contenedor--texto-right-pink2
         p.mb-4 No hay una metodología única a seguir en las aplicaciones reales a gran escala. Por lo general, una vez definido el problema de negocio, se necesita una etapa de investigación para diseñar la metodología a utilizar. Sin embargo, es relevante mencionar unas pautas generales que se aplican a casi todos los problemas.
     .contenedor--texto-left-pink2
-      p.mb-4 Una de las tareas más importantes en el análisis de Big Data es el modelado estadístico; es decir, los problemas de clasificación o regresión supervisados y no supervisados. Una vez que los datos se han limpiado y pre-procesado, disponibles para el modelado, se debe tener cuidado en la evaluación de diferentes modelos con métricas de pérdida razonables y luego, una vez que el modelo se implementa, se debe informar de la evaluación y los resultados. Un error común en la modelización predictiva es limitarse a implementar el modelo y no medir nunca su rendimiento.
+      p.mb-4 Una de las tareas más importantes en el análisis de <em>big data</em> es el modelado estadístico; es decir, los problemas de clasificación o regresión supervisados y no supervisados. Una vez que los datos se han limpiado y pre-procesado, disponibles para el modelado, se debe tener cuidado en la evaluación de diferentes modelos con métricas de pérdida razonables y luego, una vez que el modelo se implementa, se debe informar de la evaluación y los resultados. Un error común en la modelización predictiva es limitarse a implementar el modelo y no medir nunca su rendimiento.
 
     <br/><br/>
     .row.mb-4

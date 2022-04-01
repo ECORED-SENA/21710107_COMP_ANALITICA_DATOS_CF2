@@ -68,23 +68,23 @@
           .tarjeta.color.color.BG06
             .text-black.p-4
               h2.text-center Titular de la información: 
-              p “persona natural cuyos datos personales sean objeto de Tratamiento”.
+              p “Persona natural cuyos datos personales sean objeto de tratamiento”.
 
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img.img120(src='@/assets/curso/tema3/img04.svg' alt='AvatarTop')
           .tarjeta.color.color.BG06
             .p-4
-              h2.text-center Responsable del Tratamiento:
-              p.text-center “Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, decida sobre la base de datos y/o el Tratamiento de los datos”.
+              h2.text-center Responsable del tratamiento:
+              p.text-center “Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, decida sobre la base de datos y/o el tratamiento de los datos”.
 
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img.img120(src='@/assets/curso/tema3/img04.svg' alt='AvatarTop')
           .tarjeta.color.color.BG06
             .p-4
-              h2.text-center Encargado del Tratamiento: 
-              p.text-center “Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, realice el Tratamiento de datos personales por cuenta del Responsable del Tratamiento.” 
+              h2.text-center Encargado del tratamiento: 
+              p.text-center “Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, realice el tratamiento de datos personales por cuenta del responsable del tratamiento.” 
 
     .tarjeta.background-morado.p-4.mb-3
       .row.justify-content-around.align-items-center
@@ -96,7 +96,7 @@
               h4.mb-1 Documento
               p.text-small Ley 1581 de 2012 que constituye el marco general de la protección de los datos personales en Colombia 
             .col-sm-auto
-              a.boton.color-acento-botones.texto-negro(:href="obtenerLink('https://www.mintic.gov.co/arquitecturati/630/articles-9011_documento.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/Ley 1581 de 2012.pdf')" target="_blank")
                 span Descargar   
                 i.fas.fa-file-download
     Separador   
@@ -109,7 +109,7 @@
     .row
       .tarjeta.color-primario--claro.p-4
         figure.justify-content-center.align-items-center
-          img.img1100.pb-5(src="@/assets/curso/tema3/img07.svg")
+          img.img1100.pb-5(src="@/assets/curso/tema3/img15.svg")
       
     .row
       .col-3.col-md-3.col-lg-1.mb-4.mb-4-lg-0
@@ -117,7 +117,7 @@
         img.img8040(src="@/assets/curso/tema3/img08.svg")
       .col-12.mb-4.col-md-9.col-Lg-11  
         h4 Legislación en Protección de Datos Personales en Colombia 
-        p.mb-4 El siguiente video encontramos información sobre la legislación en protección de datos personales en Colombia: 
+        p.mb-4 En el siguiente video encontramos información sobre la legislación en protección de datos personales en Colombia: 
 
     figure.mb-3
       .video
@@ -133,7 +133,7 @@
         figure
           img.img40(src="@/assets/curso/tema3/img06.svg")
       .col-9.mb-4.col-md-11.col-Lg-11  
-        p El Derecho de Habeas Data se basa en Colombia por autorizar a los habitantes residentes a actualizar, conocer y rectificar toda la información que tengan las distintas entidades y bases de datos del territorio nacional. Nació como parte importante de los artículos 15 y 20 de la Constitución Política. Más adelante, fue desarrollado como derecho autosuficiente y sin dependencia, que disfrutan todos los colombianos.
+        p El Derecho de Habeas Data se basa en Colombia en autorizar a los habitantes residentes a actualizar, conocer y rectificar toda la información que tengan las distintas entidades y bases de datos del territorio nacional. Nació como parte importante de los artículos 15 y 20 de la Constitución Política. Más adelante, fue desarrollado como derecho autosuficiente y sin dependencia, que disfrutan todos los colombianos.
       
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5
