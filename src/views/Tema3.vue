@@ -96,7 +96,7 @@
               h4.mb-1 Documento
               p.text-small Ley 1581 de 2012 que constituye el marco general de la protección de los datos personales en Colombia 
             .col-sm-auto
-              a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/Ley 1581 de 2012.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Ley_1581_de_2012.pdf')" target="_blank")
                 span Descargar   
                 i.fas.fa-file-download
     Separador   
